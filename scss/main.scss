@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:rgba(0, 0, 0, 0.2);
+}
+.navbar-brand{
+	background-image: url(../images/logo.png);
+	width: 55px;
+	height: 57px;
+	background-size: cover;
+	margin-top: -7px;
+}
+.navbar .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+	content: "";
+}
+.nav-item .nav-link {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;	
+}
+.top-content{
+	position: relative;
+	background-image: url('../images/morningSun.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.top-content .container{
+	position: absolute;
+	top: 30%;
+}
+.top-content .container h1{
+	font-family: Cookie;
+	font-family: Cookie;
+	font-style: italic;
+	font-size: 4em;
+	color: #D9DDDC;
+}
+.aboutHeading{
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	font-weight: 300;
+	color: #555;
+}
+.dashedLine{
+	display: block;
+	width: 200px;
+	border-bottom: 1px dashed #ccc;
+	margin: 0 auto;
+}
+.aboutImage{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.aboutImg, .aboutDesc{
+	display: inline-block;
+	float: left;
+}
+.aboutDesc{
+	border-left: 2px solid #555;
+}
+.topic{
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+	color: #555;
+	font-style: italic;
+}
+.aboutDesc p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+}
